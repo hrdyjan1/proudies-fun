@@ -1,0 +1,9 @@
+{
+  "name": "proudies-fun",
+  "version": "1.0.0",
+  "description": "Small library focused on functional programming.",
+  "main": "index.js",
+  "repository": "https://github.com/hrdyjan1/proudies-fun",
+  "author": "Jan Hrdy",
+  "license": "MIT"
+}
