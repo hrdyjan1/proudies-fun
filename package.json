@@ -2,8 +2,25 @@
   "name": "proudies-fun",
   "version": "1.0.0",
   "description": "Small library focused on functional programming.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/hrdyjan1/proudies-fun",
   "author": "Jan Hrdy",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "jest": "^26.6.1",
+    "typescript": "^4.0.5"
+  },
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
+  }
 }
